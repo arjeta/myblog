@@ -13,3 +13,8 @@
 
 //Buefy
 @import "~buefy/src/scss/buefy.scss";
+
+//SASS pages
+@import "overrides";
+@import "helpers";
+@import "styles";
