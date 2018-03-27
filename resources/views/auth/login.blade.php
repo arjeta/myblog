@@ -10,7 +10,9 @@
 
                     <form action="{{route('login')}}" method="POST" role="form">
                         {{csrf_field()}}
+
                         <div class="field">
+                            <label class="label">Email</label>
                             <p class="control has-icons-left has-icons-right">
                                 <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="email" name="email" placeholder="example@com" value="{{old('email')}}">
                                 <span class="icon is-small is-left">
@@ -23,6 +25,7 @@
                         </div>
 
                         <div class="field">
+                            <label class="label">Password</label>
                             <p class="control has-icons-left">
                                 <input class="input {{$errors->has('password') ? 'is-danger' : ''}}" type="password" name="password" placeholder="*********">
                                 <span class="icon is-small is-left">
