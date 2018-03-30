@@ -9,6 +9,7 @@
   top: 102%;
   z-index: 1000;
   padding: 10px 0 0 0;
+  background-color: white;
   min-width: 200px;
   box-shadow: 0 0 1px rgba(57,70,78,.15), 0 20px 55px -8px rgba(57,70,78,.25);
   text-align: left;
@@ -85,4 +86,8 @@ button.nav-item {
 
 .ia-muted {
   color: lightgrey !important;
+}
+
+a.is-muted:hover{
+  color: $grey !important;
 }

@@ -8,17 +8,21 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Management Page</title>
 
     <!-- Styles -->
     {{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
 </head>
 <body>
-@include('_includes.nav.main')
-<div id="app">
+
+    @include('_includes.nav.main')
+
+    @include('_includes.nav.management')
+
+    <div id="app">
     @yield('content')
-</div>
+    </div>
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>

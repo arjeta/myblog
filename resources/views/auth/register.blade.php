@@ -40,7 +40,7 @@
                         <div class="field">
                             <label class="label">Password</label>
                             <p class="control has-icons-left">
-                                <input class="input {{$errors->has('password') ? 'is-danger' : ''}}" type="password" name="password" placeholder="*********" required>
+                                <input class="input" type="password" name="password" placeholder="*********" required>
                                 <span class="icon is-small is-left">
                                 <i class="fas fa-lock"></i>
                             </span>
@@ -50,7 +50,7 @@
                             @endif
                         </div>
 
-                        <div class="field">
+                        {{--<div class="field">
                             <label class="label">Confirm password</label>
                             <p class="control has-icons-left">
                                 <input class="input {{$errors->has('password_confirm') ? 'is-danger' : ''}}" type="password" name="password_confirm" placeholder="*********" required>
@@ -61,7 +61,7 @@
                             @if($errors->has('password'))
                                 <p class="help is-danger">{{$errors->first('password_confirm')}}</p>
                             @endif
-                        </div>
+                        </div>--}}
 
 
                         <label class="checkbox">
