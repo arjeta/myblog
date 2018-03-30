@@ -1,4 +1,4 @@
-<aside class="menu">
+<aside class="side-menu">
   <p class="menu-label">
     General
   </p>
@@ -10,7 +10,7 @@
     Administration
   </p>
   <ul class="menu-list">
-    <li><a>Manage users</a></li>
+    <li><a href="{{route('users.index')}}">Manage users</a></li>
     <li><a>Roles & Permissions</a></li>
   </ul>
 </aside>

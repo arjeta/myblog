@@ -17285,6 +17285,7 @@ label.panel-block:hover {
   top: 102%;
   z-index: 1000;
   padding: 10px 0 0 0;
+  background-color: white;
   min-width: 200px;
   -webkit-box-shadow: 0 0 1px rgba(57, 70, 78, 0.15), 0 20px 55px -8px rgba(57, 70, 78, 0.25);
           box-shadow: 0 0 1px rgba(57, 70, 78, 0.15), 0 20px 55px -8px rgba(57, 70, 78, 0.25);
@@ -17356,6 +17357,14 @@ button.nav-item.is-active {
 
 .nav {
   height: 4.5rem;
+}
+
+.ia-muted {
+  color: lightgrey !important;
+}
+
+a.is-muted:hover {
+  color: #7a7a7a !important;
 }
 
 .m-t-5 {
@@ -17836,5 +17845,24 @@ button.nav-item.is-active {
 
 .p-r-100 {
   padding-right: 100px;
+}
+
+.side-menu {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+}
+
+.manage {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 
