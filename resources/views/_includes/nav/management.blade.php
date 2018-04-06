@@ -11,6 +11,6 @@
   </p>
   <ul class="menu-list">
     <li><a href="{{route('users.index')}}">Manage users</a></li>
-    <li><a>Roles & Permissions</a></li>
+    <li><a href="{{route('permissions.index')}}">Roles & Permissions</a></li>
   </ul>
 </aside>
